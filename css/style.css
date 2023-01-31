@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 *{
     margin: 0;
@@ -32,4 +33,64 @@ header{
     text-transform: uppercase;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    height: 600px;
+    background-image: url(../img/ImagemBanner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-banner{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-align: center; /* Centralizando */ 
+    
+}
+
+.posicao-texto{
+    justify-content: flex-end;
+}
+
+.texto-banner h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 70px;
+    font-weight:900;
+}
+
+.texto-banner a{
+    background-color: #C31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.texto-banner p{
+    margin-bottom: 50px ;
+}
+
+.section-jogos{
+    background-color: black;
+    height: 100px;
+}
+
+.jogos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.conteudo-sobre{
+    background-image: url(../img/Fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-sobre{
+    color: white;
 }
