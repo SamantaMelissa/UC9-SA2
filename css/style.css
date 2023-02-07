@@ -79,13 +79,13 @@ header{
 }
 
 .jogos{
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
     height: 100px;
 }
 
-.conteudo-sobre{
+.section-sobre{
     background-image: url(../img/Fundo.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,4 +93,60 @@ header{
 
 .texto-sobre{
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.barras{
+    display: none;
+    width: 38px;
+}
+
+.posicionamento-header{
+    position: relative;
+}
+
+/* desktop */
+@media screen and (max-width:1200px) {
+    .container-grid{
+        width: 90%;
+    }
+
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+
+
+}
+
+/* tablet */
+@media screen and (max-width:780px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        right: 60;
+        background-color: #1E1C21;
+    }
+    .barras{
+        display: inline-block;
+    }
+
+    .menu a {
+        text-align: right;
+        padding: 5px;
+    }
+
+}
+
+/* mobile */
