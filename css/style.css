@@ -108,6 +108,46 @@ header{
     position: relative;
 }
 
+footer{
+    background-color: #010101;
+}
+
+.links{
+    color: white;
+}
+
+.sociais{
+    color: white;
+}
+.links-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.links-footer h2{
+    font-size: 22px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo-footer{
+    width: 300px;
+    height: 40px;
+}
+
+#carrossel img{
+    display: none;
+}
+
+.banner-ativo{
+    display: flex;
+}
+
+
 /* desktop */
 @media screen and (max-width:1200px) {
     .container-grid{
@@ -121,9 +161,6 @@ header{
     .logo{
         width: 200px;
     }
-
-
-
 }
 
 /* tablet */
@@ -145,6 +182,9 @@ header{
     .menu a {
         text-align: right;
         padding: 5px;
+    }
+    .menu-ativo{
+        display: flex;
     }
 
 }
