@@ -141,10 +141,45 @@ footer{
 
 #carrossel img{
     display: none;
+    width: 100%;
 }
 
 .banner-ativo{
     display: flex;
+}
+
+.section-ofertas{
+    background-color: #1E1C21;
+}
+
+.ofertas{
+    color: white;
+}
+
+.cards{
+    margin: 35px;
+    /* colocando o gradiente no backgroud: */
+    background-image: linear-gradient(white, black);
+    /* Aplicando uma sombra */
+    box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards button{
+    background-color: red;
+    padding: 5px;
+    border-style: none;
+    border-radius: 6px;
+    border: none;
+    margin: 10px;
+    width: 80%;
+}
+
+.ofertas h2{
+    padding: 15px;
 }
 
 
@@ -170,9 +205,10 @@ footer{
         flex-direction: column;
         width: 200px;
         height: 200px;
-        position: absolute;
+        /* O position, é o posicionamento dos elementos no HTML. Inicalmente, todos os elementos são estáticos (position:static) */
+        position: fixed;
         top: 0;
-        right: 60;
+        right: 0;
         background-color: #1E1C21;
     }
     .barras{
